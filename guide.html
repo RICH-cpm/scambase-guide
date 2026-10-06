@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScamBase — инструкция</title>
+<meta name="description" content="Как пользоваться ботом ScamBase: проверка людей, жалобы, апелляции, белый список, подписка для чата.">
+<meta name="theme-color" content="#0f1720">
+<link rel="icon" href="data:image/jpeg;base64,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">
+<style>
+:root{
+  --logo:url("data:image/jpeg;base64,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");
+  --bg:#0f1720; --bg2:#141e29; --panel:#17212b; --panel2:#1d2a37; --line:#273545;
+  --text:#e8edf2; --muted:#8b9bab; --accent:#2aabee; --accent2:#8a7cf0;
+  --ok:#3fb950; --warn:#e3a33b; --bad:#ef5350; --chat:#0e1621; --bubble:#182533;
+  --me:#2b5278; --kb:rgba(255,255,255,.08); --kbline:rgba(255,255,255,.06);
+  --shadow:0 10px 30px rgba(0,0,0,.35); --radius:16px;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --bg:#f3f6f9; --bg2:#eaf0f5; --panel:#ffffff; --panel2:#f6f9fc; --line:#dfe6ee;
+    --text:#14202b; --muted:#5d6f80; --chat:#cfe0ea; --bubble:#ffffff; --me:#e1f6cb;
+    --kb:rgba(20,32,43,.08); --kbline:rgba(20,32,43,.06); --shadow:0 10px 30px rgba(20,32,43,.12);
+  }
+}
+:root[data-theme="light"]{
+  --bg:#f3f6f9; --bg2:#eaf0f5; --panel:#ffffff; --panel2:#f6f9fc; --line:#dfe6ee;
+  --text:#14202b; --muted:#5d6f80; --chat:#cfe0ea; --bubble:#ffffff; --me:#e1f6cb;
+  --kb:rgba(20,32,43,.08); --kbline:rgba(20,32,43,.06); --shadow:0 10px 30px rgba(20,32,43,.12);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+code,kbd{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.92em;background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:.08em .4em}
+#progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));z-index:60}
+header.top{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:12px;padding:12px 18px;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;white-space:nowrap}
+.logo,.bar .ava{border-radius:50%;background:#000 var(--logo) center/cover no-repeat;box-shadow:0 0 0 1px rgba(255,255,255,.12);flex:none}
+.logo{width:36px;height:36px}
+.brand small{display:block;font-weight:500;color:var(--muted);font-size:12px}
+.search{flex:1;max-width:420px;margin-left:auto;position:relative}
+.search input{width:100%;padding:9px 12px 9px 36px;border-radius:12px;border:1px solid var(--line);background:var(--panel);color:var(--text);font-size:15px;outline:none}
+.search input:focus{border-color:var(--accent)}
+.search::before{content:"🔍";position:absolute;left:11px;top:50%;transform:translateY(-50%);font-size:14px;opacity:.7}
+.iconbtn{border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:10px;padding:8px 10px;cursor:pointer;font-size:15px}
+.iconbtn:hover{border-color:var(--accent)}
+#menuBtn{display:none}
+.layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:28px;max-width:1240px;margin:0 auto;padding:24px 18px 80px}
+nav.toc{position:sticky;top:84px;align-self:start;max-height:calc(100vh - 100px);overflow:auto;padding-right:6px}
+nav.toc .group{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:16px 10px 6px}
+nav.toc a{display:flex;gap:8px;align-items:center;padding:7px 10px;border-radius:10px;color:var(--text);font-size:15px}
+nav.toc a:hover{background:var(--panel);text-decoration:none}
+nav.toc a.active{background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--accent)}
+main{min-width:0}
+.hero{background:radial-gradient(1200px 300px at 10% -20%,color-mix(in srgb,var(--accent) 30%,transparent),transparent),linear-gradient(135deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:22px;padding:30px;box-shadow:var(--shadow);margin-bottom:28px}
+.hero h1{margin:0 0 8px;font-size:clamp(26px,4vw,38px);line-height:1.15}
+.hero p{margin:0;color:var(--muted);font-size:17px;max-width:720px}
+.quick{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:22px}
+.quick a{display:block;background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:14px;color:var(--text);transition:transform .15s,border-color .15s}
+.quick a:hover{transform:translateY(-2px);border-color:var(--accent);text-decoration:none}
+.quick b{display:block;font-size:22px;margin-bottom:4px}
+.quick span{color:var(--muted);font-size:14px}
+section.doc{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:26px;margin-bottom:22px;box-shadow:var(--shadow)}
+section.doc h2{margin:0 0 6px;font-size:24px;display:flex;align-items:center;gap:10px}
+section.doc h3{margin:22px 0 8px;font-size:18px}
+.lead{color:var(--muted);margin:0 0 16px}
+.split{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:26px;align-items:start}
+.steps{list-style:none;padding:0;margin:0;counter-reset:s}
+.steps li{position:relative;padding:12px 14px 12px 52px;border:1px solid var(--line);background:var(--panel2);border-radius:14px;margin-bottom:10px;cursor:pointer;transition:border-color .15s,background .15s}
+.steps li::before{counter-increment:s;content:counter(s);position:absolute;left:14px;top:12px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:14px;background:var(--bg2);border:1px solid var(--line)}
+.steps li.on{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,var(--panel2))}
+.steps li.on::before{background:var(--accent);border-color:var(--accent);color:#fff}
+.steps li b{display:block}
+.steps li span{color:var(--muted);font-size:15px}
+.callout{display:flex;gap:12px;border-radius:14px;padding:14px 16px;margin:14px 0;border:1px solid var(--line);background:var(--panel2)}
+.callout .i{font-size:20px;line-height:1.3}
+.callout.tip{border-color:color-mix(in srgb,var(--ok) 45%,var(--line))}
+.callout.warn{border-color:color-mix(in srgb,var(--warn) 55%,var(--line))}
+.callout.bad{border-color:color-mix(in srgb,var(--bad) 55%,var(--line))}
+.callout p{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel2);border-radius:999px;padding:6px 12px;font-size:14px}
+.status-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-top:10px}
+.status{border:1px solid var(--line);border-radius:14px;padding:14px;background:var(--panel2)}
+.status .t{font-weight:700;display:flex;gap:8px;align-items:center}
+.status p{margin:6px 0 0;color:var(--muted);font-size:14px}
+.status.scam{border-left:4px solid var(--bad)} .status.suspect{border-left:4px solid var(--warn)}
+.status.clean{border-left:4px solid var(--ok)} .status.trust{border-left:4px solid var(--accent)}
+.rank{list-style:none;padding:0;margin:12px 0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:22px}
+.rank li{position:relative;background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:10px 8px;text-align:center;font-weight:600;font-size:14px;display:flex;flex-direction:column;align-items:center;gap:2px}
+.rank li small{color:var(--muted);font-weight:500;font-size:12px}
+.rank li:not(:last-child)::after{content:"›";position:absolute;right:-16px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:20px}
+@media (max-width:700px){.rank{grid-template-columns:1fr;gap:14px}.rank li{flex-direction:row;justify-content:space-between;padding:9px 12px}.rank li:not(:last-child)::after{content:"↓";right:auto;left:50%;top:auto;bottom:-15px;transform:translateX(-50%);font-size:14px}}
+.cmd{display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid var(--line);background:var(--bg2);border-radius:12px;padding:10px 12px;margin:8px 0}
+.cmd code{background:none;border:0;padding:0;font-size:15px}
+.cmd .d{color:var(--muted);margin-left:8px;font-size:15px}
+.cmd button{border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:8px;padding:5px 10px;cursor:pointer;font-size:13px;white-space:nowrap}
+.cmd button.done{border-color:var(--ok);color:var(--ok)}
+table.t{width:100%;border-collapse:collapse;margin:10px 0;font-size:15px}
+table.t th,table.t td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+table.t th{background:var(--panel2)}
+.tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:10px 0}
+.tscroll table.t{margin:0;min-width:560px}
+details.faq{border:1px solid var(--line);border-radius:12px;background:var(--panel2);margin:8px 0}
+details.faq summary{cursor:pointer;padding:12px 14px;font-weight:600;list-style:none}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary::after{content:"＋";float:right;color:var(--muted)}
+details.faq[open] summary::after{content:"－"}
+details.faq div{padding:0 14px 14px;color:var(--muted)}
+/* ── Макет телефона с чатом бота ── */
+.phone{position:sticky;top:90px;width:100%;max-width:360px;margin:0 auto;border-radius:28px;padding:10px;background:linear-gradient(160deg,#2a3542,#11181f);box-shadow:var(--shadow),inset 0 0 0 1px rgba(255,255,255,.06)}
+.screen{border-radius:20px;overflow:hidden;background:var(--chat);background-image:radial-gradient(circle at 20% 20%,rgba(255,255,255,.04) 0 2px,transparent 3px),radial-gradient(circle at 70% 60%,rgba(255,255,255,.03) 0 2px,transparent 3px);background-size:36px 36px;min-height:470px;display:flex;flex-direction:column}
+.bar{display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--panel);border-bottom:1px solid var(--line)}
+.bar .ava{width:34px;height:34px}
+.bar b{display:block;font-size:15px} .bar small{color:var(--muted);font-size:12px}
+.msgs{padding:12px 10px 14px;display:flex;flex-direction:column;gap:8px;flex:1;justify-content:flex-end}
+.bubble{max-width:100%;background:var(--bubble);border-radius:14px 14px 14px 4px;padding:8px 11px;font-size:14px;line-height:1.45;box-shadow:0 1px 1px rgba(0,0,0,.2);animation:pop .25s ease;overflow-wrap:anywhere}
+.bubble.me{align-self:flex-end;background:var(--me);border-radius:14px 14px 4px 14px}
+.bubble .who{display:block;color:var(--accent);font-weight:600;font-size:13px;margin-bottom:2px}
+.msg{display:flex;flex-direction:column;gap:4px;max-width:92%;align-self:flex-start}
+.msg.me{align-self:flex-end;align-items:flex-end}
+.msg.haskb{width:92%}
+.msg.haskb .bubble{max-width:none;width:100%}
+.kb{display:grid;gap:4px;width:100%}
+.kb .row{display:flex;gap:4px}
+.kb .btn{flex:1 1 0;min-width:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:7px 6px;min-height:34px;border-radius:10px;background:var(--kb);font-size:12.5px;line-height:1.25;font-weight:600;position:relative;white-space:normal;overflow-wrap:break-word;hyphens:auto;border:1px solid var(--kbline)}
+.kb .btn.primary{background:color-mix(in srgb,var(--accent) 35%,transparent)}
+.kb .btn.success{background:color-mix(in srgb,var(--ok) 35%,transparent)}
+.kb .btn.danger{background:color-mix(in srgb,var(--bad) 35%,transparent)}
+.kb .btn.hl{box-shadow:0 0 0 2px #ffd54a inset;animation:pulse 1.6s infinite;padding-right:26px}
+.kb .btn.hl::after{content:"";position:absolute;right:6px;top:50%;width:16px;height:16px;margin-top:-8px;border-radius:50%;background:#ffd54a url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M10.5 3.5 6 8l4.5 4.5' fill='none' stroke='%231a1a1a' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/12px no-repeat;animation:nudge 1s ease-in-out infinite}
+.note{align-self:center;background:rgba(0,0,0,.35);color:#fff;font-size:12px;padding:4px 10px;border-radius:999px}
+.rcard{border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-top:6px;font-size:13px}
+.rcard .h{padding:7px 9px;font-weight:700}
+.rcard table{width:100%;border-collapse:collapse}
+.rcard td{border-top:1px solid var(--line);padding:6px 9px}
+.rcard td:first-child{color:var(--muted);width:1%;white-space:nowrap;padding-right:12px}
+.rcard .q{border-top:1px solid var(--line);padding:7px 9px;border-left:3px solid var(--accent);margin:0}
+.mockcap{text-align:center;color:var(--muted);font-size:13px;margin-top:10px}
+.stepper{display:flex;gap:6px;justify-content:center;margin-top:10px;flex-wrap:wrap}
+.stepper button{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:999px;padding:5px 11px;cursor:pointer;font-size:13px}
+.stepper button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 2px #ffd54a inset,0 0 0 0 rgba(255,213,74,.5)}50%{box-shadow:0 0 0 2px #ffd54a inset,0 0 0 5px rgba(255,213,74,0)}}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(-3px)}}
+@keyframes pop{from{transform:translateY(6px);opacity:0}to{transform:none;opacity:1}}
+mark{background:#ffd54a;color:#111;border-radius:3px;padding:0 2px}
+#empty{display:none;text-align:center;color:var(--muted);padding:40px}
+#toTop{position:fixed;right:18px;bottom:18px;opacity:0;pointer-events:none;transition:opacity .2s}
+#toTop.show{opacity:1;pointer-events:auto}
+footer{color:var(--muted);text-align:center;font-size:14px;margin-top:30px}
+@media (max-width:1000px){.split{grid-template-columns:1fr}.phone{position:relative;top:0}}
+@media (max-width:860px){
+  .layout{grid-template-columns:1fr;padding:16px 14px 70px}
+  nav.toc{position:fixed;inset:60px 0 0 0;max-height:none;background:var(--bg);z-index:40;padding:10px 16px;transform:translateX(-100%);transition:transform .2s}
+  nav.toc.open{transform:none}
+  #menuBtn{display:inline-block}
+  .brand small{display:none}
+  section.doc{padding:18px}
+  .hero{padding:22px}
+}
+@media (max-width:520px){.search{max-width:none}.brand b{display:none}}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<header class="top">
+  <button class="iconbtn" id="menuBtn" aria-label="Оглавление">☰</button>
+  <div class="brand"><div class="logo" role="img" aria-label="ScamBase"></div><div><b>ScamBase</b><small>Инструкция для пользователей</small></div></div>
+  <label class="search"><input id="q" type="search" placeholder="Поиск по инструкции…" autocomplete="off"></label>
+  <button class="iconbtn" id="themeBtn" aria-label="Тема">🌓</button>
+</header>
+
+<div class="layout">
+<nav class="toc" id="toc">
+  <div class="group">Начало</div>
+  <a href="#about">🛡 Что умеет бот</a>
+  <a href="#statuses">🏷 Статусы людей</a>
+  <a href="#menu">🏠 Главное меню</a>
+  <div class="group">Основное</div>
+  <a href="#check">🔍 Проверить человека</a>
+  <a href="#complaint">⚡️ Подать жалобу</a>
+  <a href="#mine">📊 Мои жалобы</a>
+  <a href="#appeal">⚖️ Оспорить занос</a>
+  <div class="group">Белый список</div>
+  <a href="#whitelist">✅ Гаранты и продавцы</a>
+  <a href="#apply">📝 Заявка в белый список</a>
+  <a href="#profile">✏️ Моя анкета</a>
+  <div class="group">Ещё</div>
+  <a href="#chats">💬 Бот в вашем чате</a>
+  <a href="#support">🆘 Поддержка</a>
+  <a href="#safety">🧠 Как не попасться</a>
+  <a href="#faq">❓ Частые вопросы</a>
+</nav>
+
+<main id="content">
+  <div class="hero">
+    <h1>Как пользоваться ScamBase</h1>
+    <p>Бот помогает не нарваться на мошенников: показывает, кто есть в базе скамеров, кому можно доверять, и принимает жалобы. Ниже — всё по шагам, с картинками экранов бота.</p>
+    <div class="quick">
+      <a href="#check"><b>🔍</b>Проверить человека<span> — перед сделкой</span></a>
+      <a href="#complaint"><b>⚡️</b>Пожаловаться<span> — если вас обманули</span></a>
+      <a href="#appeal"><b>⚖️</b>Оспорить занос<span> — если вы в базе по ошибке</span></a>
+      <a href="#apply"><b>📝</b>Попасть в белый список<span> — для гарантов и продавцов</span></a>
+    </div>
+  </div>
+
+  <section class="doc" id="about">
+    <h2>🛡 Что умеет бот</h2>
+    <p class="lead">ScamBase ведёт общую базу мошенников и список проверенных людей. Им можно пользоваться в личке бота и прямо в чатах.</p>
+    <div class="status-grid">
+      <div class="status"><div class="t">🔍 Проверка</div><p>По @username или ID — в личке, в чате командой «чек» или из любого чата через @бота.</p></div>
+      <div class="status"><div class="t">⚡️ Жалобы</div><p>Обманули? Пришлите доказательства — администрация проверит и занесёт мошенника в базу.</p></div>
+      <div class="status"><div class="t">✅ Белый список</div><p>Гаранты и продавцы, которых проверила администрация.</p></div>
+      <div class="status"><div class="t">🚨 Защита чатов</div><p>В подключённых чатах бот сам предупреждает, когда пишет человек из базы.</p></div>
+    </div>
+    <div class="callout tip"><div class="i">💡</div><p>@username и ID — это один человек. Бот находит его даже после смены ника: он помнит прежние ники.</p></div>
+  </section>
+
+  <section class="doc" id="statuses">
+    <h2>🏷 Что значат статусы</h2>
+    <p class="lead">Результат проверки — карточка с одним статусом. Если человек есть сразу в нескольких списках, бот показывает самый важный.</p>
+    <div class="status-grid">
+      <div class="status trust"><div class="t">🛡 Доверенное лицо</div><p>Человек администрации. Проверка не требуется.</p></div>
+      <div class="status scam"><div class="t">🚨 Скамер</div><p>Обманывал людей, есть доказательства. Не проводите с ним сделок.</p></div>
+      <div class="status suspect"><div class="t">⚠️ Подозреваемый</div><p>Есть сигналы, но полных доказательств нет. Будьте осторожны.</p></div>
+      <div class="status trust"><div class="t">🛡 Гарант</div><p>Проверенный гарант сделок из белого списка, со ссылкой на отзывы.</p></div>
+      <div class="status trust"><div class="t">🛒 Продавец</div><p>Проверенный продавец из белого списка.</p></div>
+      <div class="status clean"><div class="t">✅ Не найден</div><p>Жалоб пока нет. Это <b>не</b> гарантия честности — просто на него ещё не жаловались.</p></div>
+    </div>
+    <h3>Какой статус главнее</h3>
+    <ol class="rank">
+      <li>🛡 Доверенное лицо<small>главнее всех</small></li>
+      <li>🚨 Скамер<small>или ⚠️ подозреваемый</small></li>
+      <li>🛡 Гарант<small>белый список</small></li>
+      <li>🛒 Продавец<small>белый список</small></li>
+      <li>✅ Не найден<small>нет записей</small></li>
+    </ol>
+    <div class="callout warn"><div class="i">⚠️</div><p>Если гарант или продавец попал в базу скамеров, бот покажет «Скамер», а не «можно доверять».</p></div>
+  </section>
+
+  <section class="doc" id="menu">
+    <h2>🏠 Главное меню</h2>
+    <div class="split">
+      <div>
+        <p class="lead">Откройте бота и нажмите <b>Запустить</b> (или отправьте <code>/start</code>). Все действия доступны кнопками.</p>
+        <table class="t">
+          <tr><th>Кнопка</th><th>Что делает</th></tr>
+          <tr><td>⚡️ Подать жалобу</td><td>Пожаловаться на мошенника</td></tr>
+          <tr><td>🔍 Проверить</td><td>Проверить человека по базе</td></tr>
+          <tr><td>✅ Белый список</td><td>Гаранты и продавцы, ваша анкета</td></tr>
+          <tr><td>📊 Мои жалобы</td><td>Статус ваших жалоб</td></tr>
+          <tr><td>⚖️ Оспорить занос</td><td>Апелляция, если вы в базе</td></tr>
+          <tr><td>🆘 Поддержка</td><td>Написать администрации</td></tr>
+          <tr><td>❔ Помощь</td><td>Справка и ссылка на эту страницу</td></tr>
+          <tr><td>⚡️ Купить подписку</td><td>Подключить бота к своему чату</td></tr>
+        </table>
+        <div class="callout tip"><div class="i">💡</div><p>Бот не засоряет чат: когда он что-то спрашивает, ваш ответ исчезает, а вопрос бота превращается в следующий шаг.</p></div>
+      </div>
+      <div><div class="phone"><div class="screen" data-mock="menu"></div></div><div class="mockcap">Главное меню бота</div></div>
+    </div>
+  </section>
+
+  <section class="doc" id="check">
+    <h2>🔍 Как проверить человека</h2>
+    <p class="lead">Проверяйте <b>перед</b> каждой сделкой. Есть четыре способа — выберите удобный.</p>
+    <div class="split">
+      <div>
+        <ol class="steps" data-for="check">
+          <li class="on" data-step="0"><b>В личке бота</b><span>Нажмите «🔍 Проверить» и пришлите @username или ID.</span></li>
+          <li data-step="1"><b>Результат — карточка</b><span>Статус, причина, ссылка на доказательства и сколько раз человека искали.</span></li>
+          <li data-step="2"><b>В любом чате с ботом</b><span>Напишите <code>чек @username</code> или ответьте на сообщение человека словом <code>чек</code>.</span></li>
+          <li data-step="3"><b>Из любого чата без бота</b><span>Наберите в поле сообщения <code>@имя_бота @username</code> и выберите результат — карточка уйдёт от вашего имени.</span></li>
+        </ol>
+        <h3>Команды</h3>
+        <div class="cmd"><code>чек @username</code><button data-copy="чек @username">Копировать</button></div>
+        <div class="cmd"><code>чек 123456789</code><button data-copy="чек 123456789">Копировать</button></div>
+        <div class="cmd"><code>/check @username</code><button data-copy="/check @username">Копировать</button></div>
+        <div class="callout tip"><div class="i">🆔</div><p><b>Где взять ID?</b> Перешлите сообщение человека боту <a href="https://t.me/userinfobot" target="_blank" rel="noopener">@userinfobot</a> — он покажет ID. Ник можно сменить, а ID — нет.</p></div>
+      </div>
+      <div><div class="phone"><div class="screen" data-mock="check"></div></div><div class="stepper" data-stepper="check"></div></div>
+    </div>
+  </section>
+
+  <section class="doc" id="complaint">
+    <h2>⚡️ Как подать жалобу</h2>
+    <p class="lead">Если вас обманули, пожалуйтесь. Без доказательств жалобу не примут, поэтому подготовьте скриншоты переписки и оплаты.</p>
+    <div class="split">
+      <div>
+        <ol class="steps" data-for="complaint">
+          <li class="on" data-step="0"><b>«⚡️ Подать жалобу»</b><span>Кнопка в главном меню.</span></li>
+          <li data-step="1"><b>ID мошенника</b><span>Только цифры: ник можно сменить, а ID — нет. Как узнать ID — см. выше.</span></li>
+          <li data-step="2"><b>Что произошло</b><span>Коротко: когда, на что договорились, как обманули.</span></li>
+          <li data-step="3"><b>Доказательства</b><span>Выберите тип (скриншоты, файлы, пересланные сообщения, текст), отправьте и нажмите «✅ Достаточно».</span></li>
+          <li data-step="4"><b>«🚀 Отправить жалобу»</b><span>Жалоба уйдёт администрации. Когда её рассмотрят, придёт уведомление.</span></li>
+        </ol>
+        <div class="callout"><div class="i">📸</div><p>Хорошие доказательства — это переписка, где видно договорённость, чек или скриншот перевода и профиль человека с видимым ником.</p></div>
+        <div class="callout warn"><div class="i">⚠️</div><p>Ложные жалобы отклоняются. Если человек уже есть в базе, бот сразу скажет об этом, и жалоба не понадобится.</p></div>
+      </div>
+      <div><div class="phone"><div class="screen" data-mock="complaint"></div></div><div class="stepper" data-stepper="complaint"></div></div>
+    </div>
+  </section>
+
+  <section class="doc" id="mine">
+    <h2>📊 Мои жалобы</h2>
+    <p class="lead">«📊 Мои жалобы» в меню показывает все ваши жалобы и решение по каждой.</p>
+    <table class="t">
+      <tr><th>Статус</th><th>Что значит</th></tr>
+      <tr><td>⌛️ Ожидает проверки</td><td>Жалоба в очереди</td></tr>
+      <tr><td>🔍 На рассмотрении</td><td>Администратор изучает доказательства</td></tr>
+      <tr><td>✅ Решена</td><td>Вердикт вынесен: человек занесён в базу или признан чистым</td></tr>
+      <tr><td>❌ Отклонена</td><td>Не хватило доказательств</td></tr>
+    </table>
+  </section>
+
+  <section class="doc" id="appeal">
+    <h2>⚖️ Как оспорить занос в базу</h2>
+    <p class="lead">Считаете, что попали в базу несправедливо? Подайте апелляцию. Её решает администрация, а не тот, кто на вас жаловался.</p>
+    <div class="split">
+      <div>
+        <ol class="steps" data-for="appeal">
+          <li class="on" data-step="0"><b>«⚖️ Оспорить занос»</b><span>Бот сам проверит по вашему ID, что вы есть в базе, и покажет причину заноса.</span></li>
+          <li data-step="1"><b>Объяснение</b><span>Одним сообщением: почему занос несправедлив.</span></li>
+          <li data-step="2"><b>Доказательства</b><span>Скриншоты, файлы, пересланные сообщения. Затем «🚀 Отправить апелляцию».</span></li>
+          <li data-step="3"><b>Решение</b><span>Придёт сюда. При одобрении запись удалят из базы.</span></li>
+        </ol>
+        <div class="callout warn"><div class="i">⭐️</div><p>Подача апелляции может быть <b>платной</b> (Telegram Stars). Цену вы увидите перед оплатой. Оплачивается <b>рассмотрение</b>, а не результат: при отказе деньги не возвращаются.</p></div>
+        <div class="callout"><div class="i">ℹ️</div><p>Одновременно можно подать только одну апелляцию. Пока она на рассмотрении, новую подать нельзя.</p></div>
+      </div>
+      <div><div class="phone"><div class="screen" data-mock="appeal"></div></div><div class="stepper" data-stepper="appeal"></div></div>
+    </div>
+  </section>
+
+  <section class="doc" id="whitelist">
+    <h2>✅ Белый список: гаранты и продавцы</h2>
+    <p class="lead">Это люди, которых проверила администрация. Списки открываются кнопкой «✅ Белый список» или командами в любом чате с ботом.</p>
+    <div class="cmd"><div><code>/dealer</code><span class="d">— проверенные гаранты</span></div><button data-copy="/dealer">Копировать</button></div>
+    <div class="cmd"><div><code>/seller</code><span class="d">— проверенные продавцы</span></div><button data-copy="/seller">Копировать</button></div>
+    <div class="callout tip"><div class="i">💡</div><p>Список приходит свёрнутым: нажмите на строку-сводку, чтобы раскрыть таблицу. В ней услуги, описание и ссылка на отзывы.</p></div>
+  </section>
+
+  <section class="doc" id="apply">
+    <h2>📝 Как попасть в белый список</h2>
+    <div class="split">
+      <div>
+        <ol class="steps" data-for="apply">
+          <li class="on" data-step="0"><b>«✅ Белый список» → «📝 Подать заявку»</b><span>Выберите роль: 🛡 Гарант или 🛒 Продавец.</span></li>
+          <li data-step="1"><b>Кого добавить</b><span>@username или ID. Можно указать себя.</span></li>
+          <li data-step="2"><b>Услуги</b><span>Кнопкой (платные / бесплатные) или текстом, <b>до 40 символов</b>.</span></li>
+          <li data-step="3"><b>Описание</b><span><b>До 120 символов</b> и не больше 4 строк, иначе текст не поместится в таблицу.</span></li>
+          <li data-step="4"><b>Ссылка на отзывы</b><span>Канал или чат с отзывами (обязательно).</span></li>
+          <li data-step="5"><b>Оплата, если она включена</b><span>Перед оплатой показывается цена. Заявка уходит администрации сразу после оплаты.</span></li>
+        </ol>
+        <div class="callout warn"><div class="i">⭐️</div><p>Подача заявки может быть <b>платной</b> (Telegram Stars). Вы платите за рассмотрение: заявку могут отклонить, и тогда деньги не возвращаются.</p></div>
+      </div>
+      <div><div class="phone"><div class="screen" data-mock="apply"></div></div><div class="stepper" data-stepper="apply"></div></div>
+    </div>
+  </section>
+
+  <section class="doc" id="profile">
+    <h2>✏️ Моя анкета</h2>
+    <div class="split">
+      <div>
+        <p class="lead">Если вы уже в белом списке, анкету можно править самому, без новой заявки.</p>
+        <ol class="steps" data-for="profile">
+          <li class="on" data-step="0"><b>«✅ Белый список» → «📋 Мои анкеты»</b><span>Если вы и гарант, и продавец, выберите анкету.</span></li>
+          <li data-step="1"><b>Что изменить</b><span>«✏️ Услуги», «📝 Описание» или «⭐️ Отзывы». Пришлите новый текст, и бот сохранит его сразу.</span></li>
+        </ol>
+        <div class="callout"><div class="i">ℹ️</div><p>Администрация видит каждую правку. Подмена ссылки на отзывы не пройдёт незаметно.</p></div>
+        <div class="callout warn"><div class="i">📝</div><p>Пришло уведомление, что текст удалён по новым правилам? Значит, он был длиннее лимита. Нажмите в уведомлении «✏️ Редактировать анкету» и впишите короткий вариант.</p></div>
+      </div>
+      <div><div class="phone"><div class="screen" data-mock="profile"></div></div><div class="stepper" data-stepper="profile"></div></div>
+    </div>
+  </section>
+
+  <section class="doc" id="chats">
+    <h2>💬 Бот в вашем чате</h2>
+    <p class="lead">Владелец чата может подключить бота. Тогда он предупреждает участников, если в чате пишет человек из базы, и работают команды <code>чек</code>, <code>/dealer</code>, <code>/seller</code>.</p>
+    <ol class="steps">
+      <li><b>Добавьте бота в чат и назначьте администратором</b><span>Без прав администратора бот не видит участников.</span></li>
+      <li><b>«⚡️ Купить подписку» в личке бота</b><span>Пришлите @username или ID чата, выберите срок.</span></li>
+      <li><b>Оплата</b><span>Telegram Stars или Crypto Pay (USDT). Повторная покупка добавляет срок к текущей подписке.</span></li>
+    </ol>
+    <div class="callout tip"><div class="i">💡</div><p>Если бот работает в бесплатном режиме, подписка не нужна, и бот скажет об этом сам.</p></div>
+  </section>
+
+  <section class="doc" id="support">
+    <h2>🆘 Поддержка</h2>
+    <p class="lead">«🆘 Поддержка» в меню: опишите вопрос одним сообщением (можно со скриншотом). Ответ придёт в этот же чат с ботом.</p>
+  </section>
+
+  <section class="doc" id="safety">
+    <h2>🧠 Как не попасться мошенникам</h2>
+    <div class="status-grid">
+      <div class="status"><div class="t">🔍 Проверяйте всегда</div><p>Даже «знакомых»: аккаунт могли взломать или подделать.</p></div>
+      <div class="status"><div class="t">🆔 Сверяйте ID</div><p>Мошенники берут похожие ники (l и I, 0 и O). ID подделать нельзя.</p></div>
+      <div class="status"><div class="t">🛡 Работайте через гаранта</div><p>Через проверенного гаранта из /dealer, а не «знакомого гаранта» продавца.</p></div>
+      <div class="status"><div class="t">⏳ Не торопитесь</div><p>«Только сейчас, скидка сгорит» — классический приём давления.</p></div>
+    </div>
+    <div class="callout bad"><div class="i">⚖️</div><p>Сервис — справочный и <b>не является гарантом сделок</b>. «Не найден в базе» не означает, что человек честный: возможно, на него просто ещё не жаловались. Решение о сделке принимаете вы.</p></div>
+  </section>
+
+  <section class="doc" id="faq">
+    <h2>❓ Частые вопросы</h2>
+    <details class="faq"><summary>Почему бот просит ID, а не @username?</summary><div>Ник можно сменить за секунду, а ID — постоянный. С ID жалоба точно попадёт на нужного человека.</div></details>
+    <details class="faq"><summary>Человек сменил ник — бот его найдёт?</summary><div>Да. Бот запоминает связку ник ↔ ID и прежние ники.</div></details>
+    <details class="faq"><summary>Сколько рассматривают жалобу?</summary><div>Обычно быстро, но зависит от очереди. Уведомление придёт автоматически, а статус видно в «📊 Мои жалобы».</div></details>
+    <details class="faq"><summary>Я заплатил за заявку, а её отклонили. Вернут деньги?</summary><div>Нет: оплата — за рассмотрение, об этом предупреждают перед оплатой. Если платёж прошёл дважды, второй возвращается автоматически.</div></details>
+    <details class="faq"><summary>Бот пишет, что нужно подписаться на канал</summary><div>Администрация может включить обязательную подписку. Подпишитесь и нажмите «Я подписался — проверить».</div></details>
+    <details class="faq"><summary>Кнопки не нажимаются / бот молчит</summary><div>Отправьте <code>/start</code>, чтобы открыть меню заново. Если не помогло, напишите в «🆘 Поддержку».</div></details>
+  </section>
+
+  <div id="empty">Ничего не нашлось. Попробуйте другое слово.</div>
+  <footer>ScamBase · инструкция для пользователей · справочный сервис, не гарант сделок</footer>
+</main>
+</div>
+<button class="iconbtn" id="toTop" aria-label="Наверх">↑</button>
+
+<script>
+/* ── Экраны бота для макетов. Подписи кнопок — как в самом боте ── */
+const BOT = "ScamBase";
+const MENU_KB = [[["⚡️ Подать жалобу","primary"]],["🔍 Проверить","✅ Белый список"],["📊 Мои жалобы","⚖️ Оспорить занос"],["🆘 Поддержка","❔ Помощь"],["⚡️ Купить подписку"]];
+const SCREENS = {
+  menu: [[
+    {bot:"👋 Привет, <b>Алекс</b>!<br><br>Я — <b>ScamBase Bot</b> 🛡<br>Выбери действие:", kb:MENU_KB}
+  ]],
+  check: [
+    [{bot:"👋 Главное меню", kb:MENU_KB, hl:"🔍 Проверить"}],
+    [{bot:"🔍 <b>Проверка пользователя</b><br>Напиши username или ID:", kb:[["❌ Отмена"]]},
+     {me:"@durov_fake"},
+     {bot:"", card:{c:"var(--bad)", h:"❗️ Не проводите сделок с этим пользователем!", rows:[["👤 Пользователь","@durov_fake"],["#️⃣ ID","123456789"],["🛡 Репутация","Скамер"],["🔍 Проверок","14"]], q:"✏️ Взял предоплату и пропал"}, kb:[["📎 Доказательства"],["🏠 В меню"]]}],
+    [{who:"Иван", me:"чек @seller_ivan"},
+     {bot:"", card:{c:"var(--ok)", h:"❗️ В базе скамеров не найден", rows:[["👤 Пользователь","@seller_ivan"],["🛡 Репутация","Чист"],["🔍 Проверок","0"]]}, kb:[["⚡️ Подать жалобу"]]}],
+    [{note:"Поле ввода: @ScamBaseBot @durov_fake"},
+     {me:"", card:{c:"var(--bad)", h:"❗️ Не проводите сделок с этим пользователем!", rows:[["👤 Пользователь","@durov_fake"],["🛡 Репутация","Скамер"]], q:"✏️ Взял предоплату и пропал"}, kb:[["📎 Доказательства"]], via:true}]
+  ],
+  complaint: [
+    [{bot:"👋 Главное меню", kb:MENU_KB, hl:"⚡️ Подать жалобу"}],
+    [{bot:"⚡️ <b>Подача жалобы</b><br><br>Укажи <b>ID</b> пользователя, на которого жалуешься (только цифры).<br>Пример: <code>123456789</code>", kb:[["❌ Отмена"]]},{me:"123456789"}],
+    [{bot:"👤 Цель: ID <code>123456789</code><br><br>Теперь кратко опиши ситуацию — что произошло?", kb:[["❌ Отмена"]]},{me:"Продал аккаунт, взял 500₽ и заблокировал"}],
+    [{bot:"📎 <b>Добавь доказательства</b><br>Выбери тип и отправляй файлы:", kb:[["🖼 Скриншоты","📎 Файлы"],["❔ Пересланные сообщения"],["✏️ Текст / Описание"],[["❌ Отменить","danger"]]], hl:"🖼 Скриншоты"},
+     {me:"🖼 3 скриншота"},
+     {bot:"✅ Фото принято! Отправляй ещё или нажми кнопку ниже.", kb:[[["✅ Достаточно","success"],["➕ Ещё","primary"]],["🔙 К выбору типов"]], hl:"✅ Достаточно"}],
+    [{bot:"📎 Хочешь добавить ещё один тип доказательств?<br>Или отправляй жалобу на проверку!", kb:[["✓ 🖼 Скриншоты","📎 Файлы"],["❔ Пересланные сообщения"],[["🚀 Отправить жалобу","success"]],[["❌ Отменить","danger"]]], hl:"🚀 Отправить жалобу"}]
+  ],
+  appeal: [
+    [{bot:"👋 Главное меню", kb:MENU_KB, hl:"⚖️ Оспорить занос"}],
+    [{bot:"⚖️ <b>Апелляция по заносу в базу</b><br>📊 Твой статус: СКАМЕР<br>✏️ Причина: …<br><br><b>Шаг 1.</b> Опиши, почему занос несправедлив.", kb:[["❌ Отмена"]]},{me:"Сделка была выполнена, вот подтверждения…"}],
+    [{bot:"📎 <b>Шаг 2. Доказательства</b><br>Пришли всё, что подтверждает твою правоту.", kb:[["🚀 Отправить апелляцию"],["❌ Отмена"]]},{me:"🖼 скриншот"},{bot:"✅ Принято (1 шт.). Пришли ещё или отправь апелляцию.", kb:[["🚀 Отправить апелляцию"],["❌ Отмена"]], hl:"🚀 Отправить апелляцию"}],
+    [{bot:"✅ <b>Апелляция #12 отправлена!</b><br>Администрация рассмотрит её и пришлёт решение сюда.", kb:[["📊 Мои апелляции"],["🏠 В меню"]]}]
+  ],
+  apply: [
+    [{bot:"✅ <b>Белый список</b> — 9 проверенных", kb:[["🛡 @garant_one"],["🛒 @shop_two"],["📝 Подать заявку","📋 Мои анкеты"],["🏠 В меню"]], hl:"📝 Подать заявку"},
+     {bot:"📝 <b>Заявка в белый список</b><br>Шаг 1 из 5. Выбери свой статус:", kb:[["🛡 Гарант"],["🛒 Продавец"],["❌ Отмена"]]}],
+    [{bot:"📝 Статус: <b>🛡 Гарант</b><br>Шаг 2 из 5. Напиши @username или ID:", kb:[["❌ Отмена"]]},{me:"@my_nick"}],
+    [{bot:"📝 Шаг 3 из 5. Какие услуги? Выбери или напиши свой вариант (до 40 символов):", kb:[["💰 Платные"],["🆓 Бесплатные"],["🔀 Платные и бесплатные"],["❌ Отмена"]]}],
+    [{bot:"📝 Шаг 4 из 5. Короткое описание.<br><i>До 120 символов и не больше 4 строк.</i>", kb:[["⏩ Пропустить"],["❌ Отмена"]]},{me:"Гарант сделок, отвечаю быстро. От 5 машин — 15⭐"}],
+    [{bot:"📝 Шаг 5 из 5. Пришли <b>ссылку на отзывы</b>.", kb:[["❌ Отмена"]]},{me:"t.me/my_reviews"}],
+    [{bot:"⭐️ <b>Заявка в белый список: оплата</b><br>Подача платная: <b>50 ⭐️</b>.<br><br>⚠️ <i>Оплата — за рассмотрение, а не за результат: заявка может быть отклонена.</i>", kb:[[["⭐️ Оплатить 50","success"]],["❌ Отмена"]], hl:"⭐️ Оплатить 50"}]
+  ],
+  profile: [
+    [{bot:"📋 <b>Мои анкеты</b><br>Выбери, какую изменить:", kb:[["🛡 Гарант"],["🛒 Продавец"],["◀️ Назад"]], hl:"🛡 Гарант"}],
+    [{bot:"<b>🛡 Гарант — @my_nick</b><br><br>✏️ <b>Услуги:</b> Платные<br>📝 <b>Описание:</b> Гарант сделок…<br>⭐️ <b>Отзывы:</b> t.me/my_reviews", kb:[["✏️ Услуги","📝 Описание"],["⭐️ Отзывы"],["◀️ Мои анкеты"]], hl:"📝 Описание"},{me:"Гарант NFT и аккаунтов, 24/7"},{bot:"✅ <b>Сохранено.</b>"}]
+  ]
+};
+
+function esc(s){return String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
+function renderKb(kb, hl){
+  const wrap=document.createElement("div"); wrap.className="kb";
+  kb.forEach(row=>{const r=document.createElement("div"); r.className="row";
+    row.forEach(b=>{const [label,style]=Array.isArray(b)?b:[b,""]; const el=document.createElement("div");
+      el.className="btn"+(style?" "+style:"")+(hl===label?" hl":""); el.textContent=label; r.appendChild(el)});
+    wrap.appendChild(r)});
+  return wrap;
+}
+function renderCard(c){
+  const d=document.createElement("div"); d.className="rcard";
+  d.innerHTML='<div class="h" style="border-left:4px solid '+c.c+'">'+esc(c.h)+'</div><table>'+
+    c.rows.map(r=>'<tr><td>'+esc(r[0])+'</td><td>'+esc(r[1])+'</td></tr>').join("")+'</table>'+
+    (c.q?'<p class="q">'+esc(c.q)+'</p>':"");
+  return d;
+}
+function renderScreen(el, items){
+  el.innerHTML="";
+  const bar=document.createElement("div"); bar.className="bar";
+  bar.innerHTML='<div class="ava"></div><div><b>'+BOT+'</b><small>бот</small></div>'; el.appendChild(bar);
+  const m=document.createElement("div"); m.className="msgs"; el.appendChild(m);
+  items.forEach(it=>{
+    if(it.note){const n=document.createElement("div"); n.className="note"; n.textContent=it.note; m.appendChild(n); return}
+    const mine=("me" in it);
+    const wrap=document.createElement("div");
+    wrap.className="msg"+(mine?" me":"")+(it.kb||it.card?" haskb":"");
+    const b=document.createElement("div");
+    b.className="bubble"+(mine?" me":"");
+    if(it.who){b.innerHTML='<span class="who">'+esc(it.who)+'</span>'}
+    if(it.via){b.innerHTML+='<span class="who">через @ScamBaseBot</span>'}
+    const html=mine?esc(it.me):it.bot; if(html) b.innerHTML+=html;
+    if(it.card) b.appendChild(renderCard(it.card));
+    wrap.appendChild(b);
+    if(it.kb) wrap.appendChild(renderKb(it.kb,it.hl));
+    m.appendChild(wrap);
+  });
+}
+function setStep(id, i){
+  const scr=document.querySelector('.screen[data-mock="'+id+'"]'); if(!scr) return;
+  renderScreen(scr, SCREENS[id][i]);
+  document.querySelectorAll('.steps[data-for="'+id+'"] li').forEach(li=>li.classList.toggle("on",+li.dataset.step===i));
+  document.querySelectorAll('.stepper[data-stepper="'+id+'"] button').forEach((b,j)=>b.classList.toggle("on",j===i));
+}
+document.querySelectorAll(".screen[data-mock]").forEach(scr=>{
+  const id=scr.dataset.mock; const n=SCREENS[id].length;
+  const st=document.querySelector('.stepper[data-stepper="'+id+'"]');
+  if(st && n>1){for(let i=0;i<n;i++){const b=document.createElement("button"); b.textContent="Шаг "+(i+1); b.onclick=()=>setStep(id,i); st.appendChild(b)}}
+  document.querySelectorAll('.steps[data-for="'+id+'"] li').forEach(li=>li.addEventListener("click",()=>{
+    setStep(id,+li.dataset.step);
+    // На узком экране макет под шагами — показываем его
+    if(innerWidth<1000) scr.closest(".phone").scrollIntoView({behavior:"smooth",block:"center"});
+  }));
+  setStep(id,0);
+});
+
+/* ── Копирование команд ── */
+document.querySelectorAll("[data-copy]").forEach(btn=>btn.addEventListener("click",async()=>{
+  try{await navigator.clipboard.writeText(btn.dataset.copy); btn.textContent="Скопировано"; btn.classList.add("done");
+    setTimeout(()=>{btn.textContent="Копировать"; btn.classList.remove("done")},1500)}catch(e){}
+}));
+
+/* ── Тема ── */
+const root=document.documentElement;
+try{const saved=localStorage.getItem("sb-theme"); if(saved) root.dataset.theme=saved}catch(e){}
+document.getElementById("themeBtn").onclick=()=>{
+  const dark=root.dataset.theme? root.dataset.theme==="dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  root.dataset.theme=dark?"light":"dark"; try{localStorage.setItem("sb-theme",root.dataset.theme)}catch(e){}
+};
+
+/* ── Меню на телефоне ── */
+const toc=document.getElementById("toc");
+document.getElementById("menuBtn").onclick=()=>toc.classList.toggle("open");
+toc.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>toc.classList.remove("open")));
+
+/* ── Поиск по разделам ── */
+const sections=[...document.querySelectorAll("section.doc")];
+
+let timer;
+document.getElementById("q").addEventListener("input",e=>{clearTimeout(timer); timer=setTimeout(()=>search(e.target.value),150)});
+function search(q){
+  q=q.trim().toLowerCase(); let shown=0;
+  sections.forEach(s=>{
+    const hit=!q || s.textContent.toLowerCase().includes(q);
+    s.style.display=hit?"":"none"; if(hit) shown++;
+    toc.querySelectorAll('a[href="#'+s.id+'"]').forEach(a=>a.style.display=hit?"":"none");
+  });
+  document.getElementById("empty").style.display=shown?"none":"block";
+}
+
+/* ── Прогресс чтения, подсветка оглавления, «наверх» ── */
+const links=[...toc.querySelectorAll("a")];
+const toTop=document.getElementById("toTop");
+toTop.onclick=()=>scrollTo({top:0,behavior:"smooth"});
+function onScroll(){
+  const h=document.documentElement; const p=h.scrollTop/(h.scrollHeight-h.clientHeight||1);
+  document.getElementById("progress").style.width=(p*100)+"%";
+  toTop.classList.toggle("show",h.scrollTop>600);
+  let current=sections[0]?.id;
+  sections.forEach(s=>{if(s.style.display!=="none" && s.getBoundingClientRect().top<120) current=s.id});
+  links.forEach(a=>a.classList.toggle("active",a.getAttribute("href")==="#"+current));
+}
+addEventListener("scroll",onScroll,{passive:true}); onScroll();
+</script>
+</body>
+</html>
